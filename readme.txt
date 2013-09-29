@@ -2,7 +2,7 @@
 Contributors: deshack
 Donate link: http://www.deshack.net/donate/
 Tags:
-Requires at least: 2.5
+Requires at least: 2.8
 Tested up to: 3.6.1
 Stable tag: 1.0.0
 License: GPLv2 or later
