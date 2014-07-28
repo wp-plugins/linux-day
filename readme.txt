@@ -1,10 +1,10 @@
 === Linux Day ===
 Contributors: deshack
 Donate link: http://www.deshack.net/donate/
-Tags:
+Tags: widget, linux-day, linux, banner
 Requires at least: 2.8
-Tested up to: 3.6.1
-Stable tag: 1.0.0
+Tested up to: 3.9.1
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -27,6 +27,10 @@ Or simply install it from the WP Admin Plugins section.
 == Screenshots ==
 
 == Changelog ==
+
+= 1.0.1 =
+* Fix widget form notices.
+* Compatible up to WP 3.9.1
 
 = 1.0.0 =
 * Feature: 4 banner formats

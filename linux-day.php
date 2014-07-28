@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/deshack/linux-day
  * Description: This plugin adds a widget for Linux Day banners.
  * Author: Mattia Migliorini
- * Version: 1.0.0
+ * Version: 1.1.0
  * Author URI: http://www.deshack.net
  * License: GPLv2 or later
  */
@@ -65,19 +65,21 @@ class ld_widget_banner extends WP_Widget {
 	public function form( $instance ) {
 		$sizes = array( '180x150', '300x250', '468x60', '120x600' );
 		$selected = 'selected="selected"';
+		$title = isset($instance['title']) ? $instance['title'] : '';
+		$format = isset($instance['format']) ? $instance['format'] : '';
 		?>
 
 		<p>
 			<label for="<?php echo $this->get_field_id('title'); ?>"><?php _e( 'Title:', 'ld' ); ?></label>
-			<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr( $instance['title'] ); ?>">
+			<input class="widefat" id="<?php echo $this->get_field_id('title'); ?>" name="<?php echo $this->get_field_name('title'); ?>" type="text" value="<?php echo esc_attr( $title ); ?>">
 		</p>
 
 		<p>
 			<label for="<?php echo $this->get_field_id('format'); ?>"><?php _e( 'Banner format:', 'ld' ); ?></label>
 			<select class="widefat" id="<?php echo $this->get_field_id('format'); ?>" name="<?php echo $this->get_field_name('format'); ?>">
-				<option <?php selected( $instance['format'], '' ); ?>><?php _e( 'Select format', 'ld' ); ?></option>
+				<option <?php selected( $format, '' ); ?>><?php _e( 'Select format', 'ld' ); ?></option>
 				<?php foreach( $sizes as $size ) : ?>
-					<option <?php selected( $size, $instance['format'] ); ?> value="<?php echo esc_attr($size); ?>"><?php echo $size; ?></option>
+					<option <?php selected( $size, $format ); ?> value="<?php echo esc_attr($size); ?>"><?php echo $size; ?></option>
 				<?php endforeach; ?>
 			</select>
 		</p>
