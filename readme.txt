@@ -28,6 +28,9 @@ Or simply install it from the WP Admin Plugins section.
 
 == Changelog ==
 
+= 1.1.0 =
+* Add new banners for the Linux Day 2014.
+
 = 1.0.1 =
 * Fix widget form notices.
 * Compatible up to WP 3.9.1
@@ -37,3 +40,5 @@ Or simply install it from the WP Admin Plugins section.
 * Feature: Italian translation
 
 == Upgrade notice ==
+
+Introduced the new banners of 2014.
