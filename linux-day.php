@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/deshack/linux-day
  * Description: This plugin adds a widget for Linux Day banners.
  * Author: Mattia Migliorini
- * Version: 1.0.1
+ * Version: 1.1.0
  * Author URI: http://www.deshack.net
  * License: GPLv2 or later
  */
