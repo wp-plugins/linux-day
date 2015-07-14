@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/deshack/linux-day
  * Description: This plugin adds a widget for Linux Day banners.
  * Author: Mattia Migliorini
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author URI: http://www.deshack.net
  * License: GPLv2 or later
  */
@@ -77,7 +77,7 @@ class ld_widget_banner extends WP_Widget {
 		<p>
 			<label for="<?php echo $this->get_field_id('format'); ?>"><?php _e( 'Banner format:', 'ld' ); ?></label>
 			<select class="widefat" id="<?php echo $this->get_field_id('format'); ?>" name="<?php echo $this->get_field_name('format'); ?>">
-				<option <?php selected( $format, '' ); ?>><?php _e( 'Select format', 'ld' ); ?></option>
+				<option <?php selected( $format, '' ); ?> disabled><?php _e( 'Select format', 'ld' ); ?></option>
 				<?php foreach( $sizes as $size ) : ?>
 					<option <?php selected( $size, $format ); ?> value="<?php echo esc_attr($size); ?>"><?php echo $size; ?></option>
 				<?php endforeach; ?>
