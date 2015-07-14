@@ -3,8 +3,8 @@ Contributors: deshack
 Donate link: http://www.deshack.net/donate/
 Tags: widget, linux-day, linux, banner
 Requires at least: 2.8
-Tested up to: 3.9.1
-Stable tag: 1.1.0
+Tested up to: 4.3
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -27,6 +27,9 @@ Or simply install it from the WP Admin Plugins section.
 == Screenshots ==
 
 == Changelog ==
+
+= 1.2.0 =
+* Add new banners for Linux Day 2015.
 
 = 1.1.0 =
 * Add new banners for the Linux Day 2014.

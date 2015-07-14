@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/deshack/linux-day
  * Description: This plugin adds a widget for Linux Day banners.
  * Author: Mattia Migliorini
- * Version: 1.1.0
+ * Version: 1.2.0
  * Author URI: http://www.deshack.net
  * License: GPLv2 or later
  */
@@ -48,7 +48,7 @@ class ld_widget_banner extends WP_Widget {
 		?>
 		<a href="http://www.linuxday.it">
 			<?php $banner = 'images/banner_' . $format . '.png'; ?>
-			<img src="<?php echo plugins_url( $banner, __FILE__ ); ?>" border="0" alt="Linux Day 2013">
+			<img src="<?php echo plugins_url( $banner, __FILE__ ); ?>" border="0" alt="Linux Day 2015">
 		</a>
 		<?php
 		endif;
