@@ -1,10 +1,10 @@
-=== Linux Day ===
+=== Linux Day for WordPress ===
 Contributors: deshack
 Donate link: http://www.deshack.net/donate/
 Tags: widget, linux-day, linux, banner
 Requires at least: 2.8
 Tested up to: 4.3
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
@@ -47,4 +47,8 @@ Or simply install it from the WP Admin Plugins section.
 
 == Upgrade notice ==
 
+= 1.2.2 =
+Purges browser cache by appending the plugin version number to the banner image src.
+
+= 1.1.0 =
 Introduced the new banners of 2014.
